@@ -1,6 +1,3 @@
-# MapaSite
-
-
 <html>
 
 <head>
@@ -17,6 +14,7 @@
     <b>
         <CENTER>
             <div class="container">
+                <p>
                 <h2>MAPA DO SITE</h2>
 
                 <br><br>
@@ -78,7 +76,7 @@
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">ADMINISTRATIVO</font>
                             </div>
@@ -87,7 +85,7 @@
 
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">COMÉRCIO</font>
                             </div>
@@ -96,7 +94,7 @@
 
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">ESTÁGIOS</font>
                             </div>
@@ -104,7 +102,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">PRODUÇÃO</font>
                             </div>
@@ -112,7 +110,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">TÉCNICAS</font>
                             </div>
@@ -120,15 +118,19 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                        <div class="card bg-success text-black">
+                        <div class="card bg-primary text-black">
                             <div class="card-body">
                                 <font size="2">TI</font>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+        
+
         </CENTER>
     </b>
 </body>
+
 </html>
