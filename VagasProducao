@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Empregos RS
+    </title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<body">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #container-imagem {
+            position: relative;
+            height: 92vh;
+            width: 100vw;
+            background: url('Design.png');
+            background-size: cover;
+        }
+
+        #meulink {
+            color: #850000;
+        }
+        #meulink2 {
+            color: rgb(121, 121, 121);
+            font-size: 20px;
+            font-weight:lighter;
+            
+        }
+        
+
+        #rodape {
+
+            width: 800px;
+            padding: 10px 2%;
+            color: rgb(121, 121, 121);
+            text-align: center;
+            font: small-caps bold 15px "Arial", sans-serif;
+        }
+
+        body {
+            font-size: 14px
+        }
+
+        button {
+            background-color: #850000;
+            border: 0.15em solid rgb(0, 0, 0);
+            outline: none;
+            padding: 0.4em 0.8em;
+            text-transform: none;
+        }
+    </style>
+
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+            ;
+
+        }
+
+        .menu ul li {
+            display: inline-block;
+            color: darkgray;
+            margin-left: 20px;
+        }
+
+        .menu {
+            width: 50%;
+            float: left;
+        }
+
+        .menu1 {
+            width: 54%;
+            margin-left: 10px;
+
+        }
+
+        .menu2 ul li a {
+
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: #850000;
+        }
+
+        .menu ul a {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+            color: #850000;
+        }
+
+        p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #850000;
+        }
+
+
+
+
+        .textoColorido {
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #7a7a7a;
+        }
+
+
+
+        .cabecalho {
+            width: 3500px;
+            height: 70px;
+            margin: 100 auto;
+            background: #850000;
+        }
+
+        .titulo {
+            width: 240px;
+            height: 50px;
+            margin: 10;
+            background: #ffffff;
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+        }
+
+        .menu ul li a {
+            color: darkgray;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .banner {
+            float: right;
+            position: relative;
+
+        }
+    </style>
+
+    <div class="cabecalho">
+
+        <br>
+        <ul>
+            <div class="titulo"> <a href="Meu layout.html"> <i class="glyphicon glyphicon-home"> </i>
+                    | Empregos RS</a>
+            </div>
+
+           
+            <br>
+        </ul>
+    </div>
+
+
+    <div class="banner">
+        <img src="work2.jpg" width="800" height="890" alt="imagem">
+    </div>
+    <br>
+
+    <div class="menu">
+
+        <ul>
+            <li> <a href="#"> Empresas </a></li>
+            <li><a href="#"> Vagas </a></li>
+            <li><a href="#"> Currículo </a></li>
+            <li><a href="#"> Sobre o Site </a></li>
+        </ul>
+    </div>
+
+    <main class="menu1">
+        <div class="menu2">
+            <ul>
+                <p>
+                    <br>
+                    <a href="https://randon.gupy.io/job/eyJqb2JJZCI6NTE0MDM0LCJzb3VyY2UiOiJpbmRlZWQifQ==?jobBoardSource=indeed" id="meulink"
+                    target="_blank">
+                    Controlador de Estoque I
+                </a>
+                <br>
+                
+                <a href="https://m5.apply.indeed.com/beta/indeedapply/form/questions/1" id="meulink" target="_blank">
+                    Auxiliar de Produção - Reposição e Carga de Caixas Pesadas
+                </a>
+                <br>
+                
+                <a href="https://randon.gupy.io/job/eyJqb2JJZCI6ODM4NzM1LCJzb3VyY2UiOiJpbmRlZWQifQ==?jobBoardSource=indeed" id="meulink"
+                    target="_blank">
+                    Operador(a) de Produção I - (Turno 1)
+                </a>
+                <br>
+                
+                <a href="https://buscarvagas.com.br/vaga?id=2170210?utm_source=cmp-indeed&utm_medium=med-indeed&utm_campaign=vindo-indeed" id="meulink"
+                    target="_blank">
+                    Auxiliar De Produção
+                </a>
+                <br>
+                
+                <a href="https://divulgavagas.com.br/auxiliar-de-producao/caxias-do-sul/rs/2532990?utm_source=cmp-indeed&utm_medium=med-indeed&utm_campaign=vindo-indeed" id="meulink"
+                    target="_blank">
+                    Auxiliar de Produção
+                </a>
+                <br>
+                
+                <a href="https://hyvadobrasil.gupy.io/job/eyJqb2JJZCI6ODA0NjYzLCJzb3VyY2UiOiJpbmRlZWQifQ==?jobBoardSource=indeed" id="meulink"
+                    target="_blank">
+                    Auxiliar de Produção - 1º T
+                </a>
+                <br>
+                
+                <a href="http://empregos.ciccaxias.org.br/VagaDetalhes.aspx?parametro=AUXILIAR%20DE%20PRODU%C3%87%C3%83O%20-%20PREPARA%C3%87%C3%83O%20E%20LAVAGEM%20DE%20PE%C3%87AS" id="meulink"
+                    target="_blank">
+                    Auxiliar de produção - Preparação eLavagem de Peças
+                </a>
+                <br>
+                
+                <a href="https://www.oemprego.com.br/vaga-de-emprego/771374-auxiliar-de-producao-caxias-do-sul?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed" id="meulink"
+                    target="_blank">
+                    Auxiliar de Produção
+                </a>
+                <br>
+                
+                <a href="https://grupoirmaosandreazza.kretos.cc/Vaga/auxiliar-de-padaria/4710?source=Indeed" id="meulink" target="_blank">
+                    Auxiliar de Padaria
+                </a>
+                <br>
+                
+                <a href="https://randon.gupy.io/job/eyJqb2JJZCI6MzM2NjEsInNvdXJjZSI6ImluZGVlZCJ9?jobBoardSource=indeed" id="meulink" target="_blank">
+                    Operador de Prensas Bloco</a>
+                <br>
+                
+                <a href="https://randon.gupy.io/job/eyJqb2JJZCI6ODI3MjM2LCJzb3VyY2UiOiJpbmRlZWQifQ==?jobBoardSource=indeed" id="meulink"
+                    target="_blank">
+                    Operador de Máquinas I - Master
+                </a>
+                <br>
+                
+                <a href="https://soprano.gupy.io/job/eyJqb2JJZCI6ODA5OTE2LCJzb3VyY2UiOiJpbmRlZWQifQ==?jobBoardSource=indeed" id="meulink"
+                    target="_blank">
+                    Assistente Compras
+                </a>
+        </div>
+
+        <br><br>
+        <ul>
+        <a href="VagasProdução.html">
+            <button id="meulink2" type="button" role="button"> 1 </button>
+        </a>
+        <a href="VagasProducao2.html"> 
+            <button id="meulink2" type="button" role="button" > 2</button>
+         </a>
+        </ul>
+
+        </p>
+    </main>
+
+    <br>
+
+    <div id="rodape">
+        <i class="glyphicon glyphicon-phone"></i>
+        0800 606 0606 R. Gustavo Ramos Sehbe, 107 - Cinquentenário, Caxias do Sul - RS, 95012-669
+        <a href="https://www.google.com/maps/place/Ftec/@-29.1735841,-51.2213971,17z/data=!4m5!3m4!1s0x951ea32976b8d059:0x6e109de2e00e8d80!8m2!3d-29.1738586!4d-51.218544"
+            target="_blank">
+            <img src="maps.png" alt="some text" width=50 height=50>
+        </a>
+        </ul>
+
+        </body>
+
+
+</html>
