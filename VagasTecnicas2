@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Empregos RS
+    </title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<body">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #container-imagem {
+            position: relative;
+            height: 92vh;
+            width: 100vw;
+            background: url('Design.png');
+            background-size: cover;
+        }
+
+        #meulink {
+            color: #850000;
+        }
+
+        #meulink2 {
+            color: rgb(121, 121, 121);
+            font-size: 20px;
+            font-weight: lighter;
+
+        }
+
+
+        #rodape {
+
+            width: 800px;
+            padding: 10px 2%;
+            color: rgb(121, 121, 121);
+            text-align: center;
+            font: small-caps bold 15px "Arial", sans-serif;
+        }
+
+        body {
+            font-size: 14px
+        }
+
+        button {
+            background-color: #850000;
+            border: 0.15em solid rgb(0, 0, 0);
+            outline: none;
+            padding: 0.4em 0.8em;
+            text-transform: none;
+        }
+    </style>
+
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+            ;
+
+        }
+
+        .menu ul li {
+            display: inline-block;
+            color: darkgray;
+            margin-left: 20px;
+        }
+
+        .menu {
+            width: 50%;
+            float: left;
+        }
+
+        .menu1 {
+            width: 54%;
+            margin-left: 10px;
+
+        }
+
+        .menu2 ul li a {
+
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: #850000;
+        }
+
+        .menu ul a {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+            color: #850000;
+        }
+
+        p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #850000;
+        }
+
+
+
+
+        .textoColorido {
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #7a7a7a;
+        }
+
+
+
+        .cabecalho {
+            width: 3500px;
+            height: 70px;
+            margin: 100 auto;
+            background: #850000;
+        }
+
+        .titulo {
+            width: 240px;
+            height: 50px;
+            margin: 10;
+            background: #ffffff;
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+        }
+
+        .menu ul li a {
+            color: darkgray;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .banner {
+            float: right;
+            position: relative;
+
+        }
+    </style>
+
+    <div class="cabecalho">
+
+        <br>
+        <ul>
+            <div class="titulo"> <a href="Meu layout.html"> <i class="glyphicon glyphicon-home"> </i>
+                    | Empregos RS</a>
+            </div>
+
+
+            <br>
+        </ul>
+    </div>
+
+
+    <div class="banner">
+        <img src="work2.jpg" width="800" height="890" alt="imagem">
+    </div>
+    <br>
+
+    <div class="menu">
+
+        <ul>
+            <li> <a href="#"> Empresas </a></li>
+            <li><a href="#"> Vagas </a></li>
+            <li><a href="#"> Currículo </a></li>
+            <li><a href="#"> Sobre o Site </a></li>
+        </ul>
+    </div>
+
+    <main class="menu1">
+        <div class="menu2">
+            <ul>
+                <p>
+                    <br>
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/mecanico-automotivo/90628" id="meulink"
+                        target="_blank">
+                        Mecânico Automotivo
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/mecanico-de-manutencao---2o-e-3o-turno/90653"
+                        id="meulink" target="_blank">
+                        Mecânico de Manutenção - 2º e 3º Turno
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/mecanico-de-manutencao-de-motocicletas-pleno/90496" id="meulink"
+                        target="_blank">
+                        Mecânico de Manutenção de Motocicletas Pleno
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/mecanico-de-veiculos-automotores-a-diesel/90619"
+                        id="meulink" target="_blank">
+                        Mecânico de Veículos Automotores a Diesel
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/operador-de-empilhadeira/80379"
+                        id="meulink" target="_blank">
+                        Operador de Empilhadeira
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/projetista-eletronico/80452"
+                        id="meulink" target="_blank">
+                        Projetista Eletrônico
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-de-manutencao-industrial/90588"
+                        id="meulink" target="_blank">
+                        Técnico de Manutenção Industrial
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-de-processos-de-injecao-plastica/90490" id="meulink"
+                        target="_blank">
+                        Técnico de Processos de Injeção Plástica
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-de-seguranca-do-trabalho-pleno---2o-turno/90574"
+                        id="meulink" target="_blank">
+                        Técnico de Segurança do Trabalho Pleno - 2º Turno
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-em-seguranca-do-trabalho-junior/90652"
+                        id="meulink" target="_blank">
+                        Técnico em Segurança do Trabalho Junior</a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-quimico-ter-disponibilidade-para-viagens/90599"
+                        id="meulink" target="_blank">
+                        Técnico Químico (ter disponibilidade para viagens)
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/tecnicas/tecnico-em-eletromecanico---2o-turno-mei/90669"
+                        id="meulink" target="_blank">
+                       Técnico em Eletromecânico - 2º Turno (MEI)
+                    </a>
+        </div>
+
+        <br><br>
+        <ul>
+            <a href="VagasTecnicas.html">
+                <button id="meulink2" type="button" role="button"> 1 </button>
+            </a>
+            <a href="VagasTecnicas2.html">
+                <button id="meulink2" type="button" role="button"> 2</button>
+            </a>
+        </ul>
+
+        </p>
+    </main>
+
+    <br>
+
+    <div id="rodape">
+        <i class="glyphicon glyphicon-phone"></i>
+        0800 606 0606 R. Gustavo Ramos Sehbe, 107 - Cinquentenário, Caxias do Sul - RS, 95012-669
+        <a href="https://www.google.com/maps/place/Ftec/@-29.1735841,-51.2213971,17z/data=!4m5!3m4!1s0x951ea32976b8d059:0x6e109de2e00e8d80!8m2!3d-29.1738586!4d-51.218544"
+            target="_blank">
+            <img src="maps.png" alt="some text" width=50 height=50>
+        </a>
+        </ul>
+
+        </body>
+
+
+</html>
