@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Empregos RS
+    </title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<body">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #container-imagem {
+            position: relative;
+            height: 92vh;
+            width: 100vw;
+            background: url('Design.png');
+            background-size: cover;
+        }
+
+        #meulink {
+            color: #850000;
+        }
+
+        #meulink2 {
+            color: rgb(121, 121, 121);
+            font-size: 20px;
+            font-weight: lighter;
+
+        }
+
+        #rodape {
+
+            width: 800px;
+            padding: 10px 2%;
+            color: rgb(121, 121, 121);
+            text-align: center;
+            font: small-caps bold 15px "Arial", sans-serif;
+        }
+
+        body {
+            font-size: 14px
+        }
+
+        button {
+            background-color: #850000;
+            border: 0.15em solid rgb(0, 0, 0);
+            outline: none;
+            padding: 0.4em 0.8em;
+            text-transform: none;
+        }
+    </style>
+
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+            ;
+
+        }
+
+        .menu ul li {
+            display: inline-block;
+            color: darkgray;
+            margin-left: 20px;
+        }
+
+        .menu {
+            width: 50%;
+            float: left;
+        }
+
+        .menu1 {
+            width: 54%;
+            margin-left: 10px;
+
+        }
+
+        .menu2 ul li a {
+
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: #850000;
+        }
+
+        .menu ul a {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+            color: #850000;
+        }
+
+        p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #850000;
+        }
+
+
+
+
+        .textoColorido {
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            color: #7a7a7a;
+        }
+
+
+
+        .cabecalho {
+            width: 3500px;
+            height: 70px;
+            margin: 100 auto;
+            background: #850000;
+        }
+
+        .titulo {
+            width: 240px;
+            height: 50px;
+            margin: 10;
+            background: #ffffff;
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgb(250, 61, 3);
+        }
+
+        .menu ul li a {
+            color: darkgray;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .banner {
+            float: right;
+            position: relative;
+
+        }
+    </style>
+
+    <div class="cabecalho">
+
+        <br>
+        <ul>
+            <div class="titulo"> <a href="Meu layout.html"> <i class="glyphicon glyphicon-home"> </i>
+                    | Empregos RS</a>
+            </div>
+
+
+            <br>
+        </ul>
+    </div>
+
+
+    <div class="banner">
+        <img src="work2.jpg" width="800" height="890" alt="imagem">
+    </div>
+    <br>
+
+    <div class="menu">
+
+        <ul>
+            <li> <a href="#"> Empresas </a></li>
+            <li><a href="#"> Vagas </a></li>
+            <li><a href="#"> Currículo </a></li>
+            <li><a href="#"> Sobre o Site </a></li>
+        </ul>
+    </div>
+
+    <main class="menu1">
+        <div class="menu2">
+            <ul>
+                <p>
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-externo/90629" id="meulink"
+                        target="_blank">
+                        Vendedor Externo
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-externo/90602" id="meulink"
+                        target="_blank">
+                        Vendedor Externo
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-externo-junior-prospeccao/90608"
+                        id="meulink" target="_blank">
+                        Vendedor Externo Junior (prospecção)
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-externo-pleno-prospeccao/90609"
+                        id="meulink" target="_blank">
+                        Vendedor Externo Pleno (prospecção)
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno/90617" id="meulink"
+                        target="_blank">
+                        Vendedor Interno
+                    </a>
+                    <br>
+
+                    <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno/90610" id="meulink"
+                        target="_blank">
+                        Vendedor Interno
+                        <br>
+
+                        <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno/90591" id="meulink"
+                            target="_blank">
+                            Vendedor Interno
+                        </a>
+                        <br>
+
+                        <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno/90567" id="meulink"
+                            target="_blank">
+                            Vendedor Interno </a>
+                        <br>
+
+                        <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno/90551" id="meulink"
+                            target="_blank">
+                            Vendedor Interno
+                        </a>
+                        <br>
+
+                        <a href="https://www.opusrh.com.br/Vagas/Detalhes/comercial/vendedor-interno---flores-da-cunha/80324"
+                            id="meulink" target="_blank">
+                            Vendedor Interno - Flores da Cunha
+                        </a>
+                        <br>   <br><br>
+        </div>
+
+        <br><br>
+        <ul>
+            <a href="VagasComercio.html">
+                <button id="meulink2" type="button" role="button"> 1</button>
+            </a>
+            <a href="VagasComercio2.html">
+                <button id="meulink2" type="button" role="button"> 2</button>
+            </a>
+        </ul>
+
+        </p>
+    </main>
+
+    <br>   
+
+    <div id="rodape">
+        <i class="glyphicon glyphicon-phone"></i>
+        0800 606 0606 R. Gustavo Ramos Sehbe, 107 - Cinquentenário, Caxias do Sul - RS, 95012-669
+        <a href="https://www.google.com/maps/place/Ftec/@-29.1735841,-51.2213971,17z/data=!4m5!3m4!1s0x951ea32976b8d059:0x6e109de2e00e8d80!8m2!3d-29.1738586!4d-51.218544"
+            target="_blank">
+            <img src="maps.png" alt="some text" width=50 height=50>
+        </a>
+        </ul>
+
+        </body>
+
+
+</html>
