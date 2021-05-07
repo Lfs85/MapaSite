@@ -34,11 +34,11 @@ main{
     text-decoration: none;
     font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
 }
 .menu{
     width: 70%;
     float: left;
+   
 }
 .busca{
     text-align:center;
@@ -67,24 +67,57 @@ main{
 .menu2 ul li a{
     color: rgb(139, 28, 28);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 38px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.menu1{
-    width: 70%;
-    margin-left: 10px;
+    margin: 50px;
+    line-height: 100px;
 }
 
 .banner{
     float: right;
     position: relative;
     bottom: 80px;
+    
 }
 .endereco{
+    width: 100%;
     color:darkgray;
-    margin-left: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    bottom: -180px;
     text-align: center;
 }
+.endereco1{
+    width: 100%;
+    color:darkgray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    bottom: -120px;
+    text-align: center;
+}
+.menu3 ul li a {
+    font-size: 30px;
+    color: darkgray;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titulo{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkgray;
+    text-align: center;
+}
+.container{
+    display: flex;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(139, 28, 28);
+    line-height: 40px;
+}
+.container p{
+    margin:15px;
+}
+
+
     
 
