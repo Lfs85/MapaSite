@@ -1,0 +1,173 @@
+<!DOCTYPE <html>
+<html lang="pt-BR">
+
+<head>
+    <title>Currículo</title>
+    <style>
+        @charset "UTF-8";
+
+body {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+
+
+        main {
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+        }
+
+
+.mainCurriculo{
+    width: 50%;
+    float: center;
+    background-color: #f8f5f5;
+    margin: -4px auto -4px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    padding: 30px 10px 30px 10px;
+    top:10%;
+}
+p { 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+legend { 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+input#btnCadastrar{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+textarea:hover, input:hover, select:hover{
+    background-color: rgba(230, 230, 230, 0.747);
+}
+
+label{
+    margin-left: -12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div{
+    margin-top: 10px; 
+}
+
+
+div#formDiv{
+    width: 90%;
+    display: block;
+    margin: auto; 
+    padding-left: 2px;
+}
+
+div#niveisIdioma{
+    margin-left: 240px;
+    margin-top: -55px;
+    margin-bottom: 10px;
+    padding-right: -20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bdrbtm{
+    border-bottom: 1px gray solid;
+    border-width: thin;
+}
+
+h1{
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 23px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+legend{
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input, textarea, select{
+    border-color: rgb(184, 182, 180);
+    font-size: 16px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+</style>
+</head>
+
+<body>
+    <main class = mainCurriculo>
+        <h1>Cadastro de currículo</h1>
+            <div id="formDiv">
+                <form id="formCurriculo">
+
+                <div id="dadosPessoais" class="bdrbtm">
+                    <legend>Dados pessoais</legend>
+                    <p>Nome: <input type="text" name="tNome" id="cNome"  size="35" maxlength="50"/></p>
+                    <p>Apresentação: <textarea name="objPro" id="objPro" cols="80" rows="3" maxlength="200" required placeholder="Descreva aqui um breve resumo de quem você é como profissional e suas conquistas. "></textarea></p>
+                    <p>Estado: <select name="estado" id="estado" required>
+                        <option disabled selected value>Selecione uma opção
+                        <option>AC <option>AL <option>AP <option>AM <option>BA <option>CE <option>DF
+                        <option>ES <option>GO <option>MA <option>MT <option>MS <option>MG <option>PA
+                        <option>PB <option>PR <option>PE <option>PI <option>RJ <option>RN <option>RS
+                        <option>RO <option>RR <option>SC <option>SP <option>SE <option>TO
+                    </select>
+                    Cidade: <input type="text" name="tCidade" id="cCidade"  size="18" maxlength="30"></p>
+                    <p>E-mail: <input type="text" name="email" id="cEmail"  size="35" maxlength="40"></p>
+                    <p>Telefone: <input type="text" name="tel" id="cTel"  size="12" maxlength="15"></p>
+                </div>
+
+                <div id="formAcademica" class="bdrbtm">
+                    <legend>Formação acadêmica</legend>
+                    <p>Nome do curso: <input type="text" name="nomeCurso" id="cCurso"  size="30" maxlength="50" ></p>
+                    <p>Nome da escola: <input type="text" name="nomeEscola" id="cEscola"  size="30" maxlength="60" ></p>
+                    <p>Semestre atual: <input type="number" name="semestre" id="nSemestre" min="1" max="10">
+                    Data de conclusão: <input type="date" name="dataConclusao" id="dataConclusao"></p>
+                </div>
+
+                <div id="histPro" class="bdrbtm">
+                    <legend>Histórico Profissional</legend>
+                    <p>Nome da empresa: <input type="text" name="nomeEmpresa" id="cNomeEmpresa" size="30" maxlength="60" ></p>
+                    <p>Função: <input type="text" name="funcao" id="cFuncao" size="30" maxlength="60" ></p>
+                    <p>Descrição da função:<textarea name="descFuncao" id="cDescFuncao" cols="80" rows="2" maxlength="100" placeholder="Breve resumo do cargo que você exerceu." ></textarea></p>
+                    <p>Data de início: <input type="date" name="dataIniFuncao" id="dataIniFuncao">
+                    Data de término: <input type="date" name="datatermFuncao" id="datatermFuncao"></p>
+                </div>
+
+                <div id="idioma" class="bdrbtm">
+                        <legend>Idioma</legend>
+                        <p>Idioma: <input type="text" name="idioma" id="cIdioma"></p>
+                    <div id="niveisIdioma">
+                        Leitura:
+                         <input type="radio" name="radioLeitura" id="lbasica"><label for="lbasica">Básico</label><input type="radio" name="radioLeitura" id="linterme"><label for="linterme">Intermediário</label><input type="radio" name="radioLeitura" id="lavan"><label for="lavan">Avançado</label><br>
+                        Escrita:
+                         <input type="radio" name="radioEscrita" id="ebasica"><label for="ebasica">Básico</label><input type="radio" name="radioEscrita" id="einterme"><label for="einterme">Intermediário</label><input type="radio" name="radioEscrita" id="eavan"><label for="eavan">Avançado</label><br>
+                        Fala:
+                         <input type="radio" name="radioFala" id="fbasica"><label for="fbasica">Básico</label><input type="radio" name="radioFala" id="finterme"><label for="finterme">Intermediário</label><input type="radio" name="radioFala" id="favan"><label for="favan">Avançado</label>
+                    </div>
+                </div>
+
+                <div id="infoComplementares">
+                    <legend>Informações complementares</legend>
+                    <textarea name="infoComple" id="infoComple" cols="80" rows="6" maxlength="500" placeholder="Coloque aqui um resumo dos principais projetos/cursos/workshops que tenha participado." ></textarea>
+                    <input type="submit" value="Cadastrar currículo" id="btnCadastrar">
+                </div>
+
+                </form>
+            </div>
+        <main>
+
+</html>
